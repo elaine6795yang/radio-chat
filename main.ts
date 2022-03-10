@@ -8,7 +8,7 @@ input.onPinPressed(TouchPin.P2, function () {
     radio.sendString("What's up? Anything new?")
 })
 input.onButtonPressed(Button.AB, function () {
-    radio.sendString("Let's talk on zoom! Zoom meeting ID: 222 706 6417")
+    radio.sendString("Let's talk on zoom! Zoom meeting ID: Your Meeting ID")
 })
 radio.onReceivedString(function (receivedString) {
     basic.showString(receivedString)
